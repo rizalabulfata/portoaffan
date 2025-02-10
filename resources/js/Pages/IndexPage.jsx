@@ -12,7 +12,7 @@ export default function IndexPage() {
                 </header>
 
                 {/* Section menu */}
-                <section className='py-8 grid grid-cols-4 md:grid-cols-4 items-center text-center px-10 md:mx-auto'>
+                <section className='py-8 grid grid-cols-4 md:grid-cols-4 items-center text-center px-4 md:px-10 lg:px-10 xl:px-10 xl:mx-40 md:mx-auto'>
                     <div>Menu 1</div>
                     <div>Menu 2</div>
                     <div>Menu 3</div>
@@ -20,7 +20,7 @@ export default function IndexPage() {
                 </section>
 
                 {/* <!-- Introduction --> */}
-                <section className='py-8 grid grid-cols-2 md:grid-cols-2 items-center px-10 xl:mx-40 md:mx-auto'>
+                <section className='py-8 grid grid-cols-2 md:grid-cols-2 items-center px-4 md:px-10 lg:px-10 xl:px-10 xl:mx-40 md:mx-auto'>
                     <div className='justify-start'>
                         <h1 className="lg:text-6xl sm:text-4xl font-bold mb-4">DO YOU HAVE PROBLEM WITH GRAPHIC DESIGN?</h1>
                         <p className="mb-6">LET'S TOUCH YOUR AUDIENCE WITH STUNNING GRAPHIC DESIGN</p>
@@ -32,7 +32,7 @@ export default function IndexPage() {
                 </section>
 
                 {/* Social media */}
-                <section className='py-8 grid grid-cols-4 md:grid-cols-4 items-center text-center px-10 md:mx-auto'>
+                <section className='py-8 grid grid-cols-4 md:grid-cols-4 items-center text-center px-4 md:px-10 lg:px-10 xl:px-10 xl:mx-40 md:mx-auto'>
 
                     <div className='flex justify-center items-center'>
                         <span className='size-8'>
@@ -92,13 +92,23 @@ export default function IndexPage() {
                 </section>
 
                 {/* <!-- Services --> */}
-                <section className="py-8 items-center px-10 md:mx-auto'">
+                <section className="py-8 items-center px-4 md:px-10 lg:px-10 xl:px-10 xl:mx-40 md:mx-auto">
                     <h2 className="text-2xl font-bold text-center mb-6">SERVICE!!!</h2>
 
                     <div className="grid grid-cols-2 justify-items-center gap-2">
 
                         <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
-                            <div className="grid grid-cols-2">
+                            <div className="grid grid-cols-1 sm:grid-cols-2">
+                                <img src="https://i.pravatar.cc/200" alt="Graphic Design" className="rounded-t-lg" />
+                                <div className='ps-4'>
+                                    <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
+                                    <p className="mb-3 text-gray-500">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+                            <div className="grid grid-cols-1 sm:grid-cols-2">
                                 <img src="https://i.pravatar.cc/200" alt="Graphic Design" className="rounded-t-lg" />
                                 <div className='ps-4'>
                                     <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
@@ -107,7 +117,7 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
-                            <div className="grid grid-cols-2">
+                            <div className="grid grid-cols-1 sm:grid-cols-2">
                                 <img src="https://i.pravatar.cc/200" alt="Graphic Design" className="rounded-t-lg" />
                                 <div className='ps-4'>
                                     <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
@@ -116,16 +126,7 @@ export default function IndexPage() {
                             </div>
                         </div>
                         <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
-                            <div className="grid grid-cols-2">
-                                <img src="https://i.pravatar.cc/200" alt="Graphic Design" className="rounded-t-lg" />
-                                <div className='ps-4'>
-                                    <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
-                                    <p className="mb-3 text-gray-500">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
-                            <div className="grid grid-cols-2">
+                            <div className="grid grid-cols-1 sm:grid-cols-2">
                                 <img src="https://i.pravatar.cc/200" alt="Graphic Design" className="rounded-t-lg" />
                                 <div className='ps-4'>
                                     <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
@@ -139,7 +140,7 @@ export default function IndexPage() {
                 </section>
 
                 {/* <!-- Portfolio --> */}
-                <section className="py-8 px-10 md:mx-auto">
+                <section className="py-8 px-4 md:px-10 lg:px-10 xl:px-10 xl:mx-40 md:mx-auto">
                     <h2 className="text-2xl font-bold text-center mb-6 ">PORTFOLIO</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
                         <div className="sm:p-4 h-56 sm:h-64 xl:h-80 2xl:h-96 text-center">
@@ -169,7 +170,7 @@ export default function IndexPage() {
                 </section>
 
                 {/* <!-- FAQ --> */}
-                <section className="py-8 bg-gray-200">
+                <section className="py-8 bg-gray-200 px-4 md:px-10 lg:px-10 xl:px-10 xl:mx-40 md:mx-auto">
                     <h2 className="text-2xl font-bold text-center mb-6">FAQ</h2>
                     <div className="max-w-2xl mx-auto">
                         <div className="bg-white shadow-md rounded p-4 mb-4">
